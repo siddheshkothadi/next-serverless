@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   console.log("started");
-  for(let i = 0; i < 10000; i++) {
+  for(let i = 0; i < 1000000; i++) {
     console.log(i);
   }
   console.log("ended");
